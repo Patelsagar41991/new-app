@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       {/* <Demo /> */}
       {/* <Containers />  */}
-      {/* <FromData /> */}
+      <FromData />
       {/* <ContryFun /> */}
-      <Country />
+      {/* <Country /> */}
     </div>
   );
 }
