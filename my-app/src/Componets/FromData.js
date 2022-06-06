@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Data = () => {
+const FromData = () => {
     const person = {
         name: "Amit",
         age: 25
@@ -10,8 +10,6 @@ const Data = () => {
         console.log(person[p]);
     };
     
-
-    // -----------------------------
 
     const person1 = [
         {
@@ -28,8 +26,6 @@ const Data = () => {
         console.log(p.name);
         console.log(p.age);
     });
-
-    // -----------------------------
 
     const person2 = {
         name: "Amit",
@@ -49,8 +45,6 @@ const Data = () => {
             console.log(person2[p]);
         };
     };
-
-    // -----------------------------
 
     const person3 = [
         {
@@ -72,8 +66,6 @@ const Data = () => {
         })
     });
 
-    // -----------------------------
-
     const myObj = {
         name: "John",
         age: 30,
@@ -94,8 +86,6 @@ const Data = () => {
             console.log(myObj[k]);
         }
     }
-
-    // -----------------------------
 
     const data = {
         personal_info: {
@@ -123,7 +113,6 @@ const Data = () => {
             }
         }
     }
-
     for (let d in data) {
         if (d === "personal_info") {
             for (let d1 in data[d]) {
@@ -137,13 +126,9 @@ const Data = () => {
             }
         }
     }
-
-
-  return (
-    <>
-
-    </>
+ return (
+    <div>
+    </div>
   )
 }
-
-export default Data
+export default FromData

@@ -5,6 +5,7 @@ import Demo from './Componets/Demo';
 import FromData from './Componets/FromData';
 import ContryFun from './Componets/ContryFun';
 import Country from './Componets/Country';
+import Time from './Componets/Time';
 
 
 function App() {
@@ -12,9 +13,10 @@ function App() {
     <div className="App">
       {/* <Demo /> */}
       {/* <Containers />  */}
-      <FromData />
+      {/* <FromData /> */}
       {/* <ContryFun /> */}
       {/* <Country /> */}
+      <Time />
     </div>
   );
 }
